@@ -19,6 +19,12 @@ const App = () => (
         <Route path="/create-post" element={<CreatePost />} />
       </Routes>
     </main>
+    <footer className="px-4 py-1 w-full bg-[#dddfe6]">
+      <div className="flex justify-between items-center py-4">
+        <p className="font-inter font-medium text-[#6469ff]">Jerry AI © 2023</p>
+        <p className="font-inter font-medium text-[#6469ff]">All rights reserved</p>
+      </div>
+    </footer>
   </BrowserRouter>
 );
 
